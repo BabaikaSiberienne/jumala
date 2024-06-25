@@ -97,12 +97,8 @@
           </h2>
         </div>
         <div class="main__tours-container">
-          <div class="main__one-tour"><!--нужно ли делать всю картинку кликабельной?-->
-            <img class="main__tours-logo" src="./images/logo.png" alt="логотип команды Йумала, сиреневый квадрат с белой стилизованной буквой Й"/>
-            <img class="main__tour-image" src="./images/Gory.jpg" alt="иллюстрация предлагаемого тура"/>
-            <h3 class="main__tour-name">Приключение на 20 минут</h3>
-            <button class="main__tour-arrow">></button><!--нужна картинка стрелки -->
-          </div>    
+          <ul class="main__tours-list"><!--место для включения картинок по шаблону-->
+          </ul>       
         </div>
       </section>
       <section class="main__container main__feedback">
@@ -147,4 +143,17 @@
         </div>
       </div>
     </footer>
-  </body>
+
+<script src="./components/cards_programs.js"></script>
+<script src="./index.js" defer></script>
+
+<template id="main__tour-template">   <!-- шаблон для картинки-->
+  <li class="main__one-tour">         <!--нужно ли делать всю картинку кликабельной?-->
+    <img class="main__tours-logo" src="./images/logo.png" alt="логотип команды Йумала, сиреневый квадрат с белой стилизованной буквой Й"/>
+    <img class="main__tour-image" src="" alt=""/>
+    <h3 class="main__tour-name">Приключение на 20 минут</h3>
+    <button class="main__tour-arrow">></button><!--нужна картинка стрелки -->
+  </li>  
+</template>
+</body>
+</html>
