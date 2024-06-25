@@ -1,0 +1,1 @@
+const containerPage = document.querySelector('.page')

@@ -5,7 +5,7 @@
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
   gap: 50px;
