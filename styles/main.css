@@ -1,3 +1,4 @@
+
 .main__picture-container {
   width: 100%;
   display: block;
@@ -114,6 +115,13 @@ text-align: left;
 .main__tours-container{
   padding: 21px 4px 2px; 
 }
+
+.main__tours-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 .main__one-tour{
   display: flex;
   margin: 22px 75px;
@@ -180,7 +188,6 @@ text-align: left;
   margin: 83px 189px;
   border-radius: 10px;
   display: block;
-  outline: 1px solid navy;
 }
 
 .main__carousel-image{
