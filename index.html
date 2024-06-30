@@ -143,17 +143,26 @@
         </div>
       </div>
     </footer>
+    
 
-<script src="./components/cards_programs.js"></script>
-<script src="./index.js" defer></script>
+<!-- <script src="./components/cards_programs.js"></script> -->
+
 
 <template id="main__tour-template">   <!-- шаблон для картинки-->
   <li class="main__one-tour">         <!--нужно ли делать всю картинку кликабельной?-->
-    <img class="main__tours-logo" src="./images/logo.png" alt="логотип команды Йумала, сиреневый квадрат с белой стилизованной буквой Й"/>
-    <img class="main__tour-image" src="" alt=""/>
-    <h3 class="main__tour-name">Приключение на 20 минут</h3>
-    <button class="main__tour-arrow">></button><!--нужна картинка стрелки -->
+    <div class="tour-box">
+      <img class="main__tours-logo" src="./images/logo.png" alt="логотип команды Йумала, сиреневый квадрат с белой стилизованной буквой Й"/>
+      <img class="main__tour-image" src="" alt=""/>
+      <h3 class="main__tour-name">Приключение на 20 минут</h3>
+      <button class="main__tour-arrow">></button><!--нужна картинка стрелки -->
+    </div>
+    <div class="main__tour-description"><!--обратная сторона картинки-->
+      <span class="main__tour-text">
+        а вот тут про тур
+      </span>
+    </div>
   </li>  
 </template>
+<script src="./index.js" defer></script>
 </body>
 </html>
